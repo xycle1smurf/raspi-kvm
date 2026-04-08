@@ -1,0 +1,4 @@
+# Beispiel. idVendor/idProduct/serial vorher mit udevadm ermitteln.
+# Dadurch bleiben die Zuordnungen nach Reboot stabil.
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="hid-kvm-uart-%n"

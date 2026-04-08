@@ -1,0 +1,8 @@
+{
+  "channels": [
+    {"name": "server1", "port": "/dev/ttyUSB0", "baud": 115200},
+    {"name": "server2", "port": "/dev/ttyUSB1", "baud": 115200},
+    {"name": "server3", "port": "/dev/ttyUSB2", "baud": 115200},
+    {"name": "server4", "port": "/dev/ttyUSB3", "baud": 115200}
+  ]
+}

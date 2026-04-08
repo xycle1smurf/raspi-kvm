@@ -1,1 +1,7 @@
-/.project
+*.pyc
+__pycache__/
+/build/
+*.uf2
+*.elf
+*.map
+.DS_Store
